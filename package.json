@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Example on how to create a web application on the cumulocity platform.",
+  "main": "index.js",
+  "scripts": {
+    "demo": "c8y create:app myapp && c8y create:plugin myplugin",
+    "start" : "c8y server -u https://demos.cumulocity.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cumulocity/cumulocity-ui-app.git"
+  },
+  "keywords": [],
+  "author": "Cumulocity  <lconfraria@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cumulocity/cumulocity-ui-app/issues"
+  },
+  "homepage": "https://github.com/Cumulocity/cumulocity-ui-app#readme",
+  "dependencies": {
+    "cumulocity-ui-build": "http://resources.cumulocity.com/webapps/ui/7.37.0-SNAPSHOT.tar.gz",
+    "cumulocity-tools": "http://resources.cumulocity.com/webapps/node-tools/c8y-1.2.0-SNAPSHOT.tar"
+  }
+}
