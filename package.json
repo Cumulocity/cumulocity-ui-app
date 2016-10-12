@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Cumulocity/cumulocity-ui-app#readme",
   "dependencies": {
-    "cumulocity-ui-build": "http://resources.cumulocity.com/webapps/ui/7.37.0-SNAPSHOT.tar.gz",
-    "cumulocity-tools": "http://resources.cumulocity.com/webapps/node-tools/c8y-1.2.0-SNAPSHOT.tar"
+    "cumulocity-ui-build": "http://resources.cumulocity.com/webapps/ui/7.37.0.tar.gz",
+    "cumulocity-tools": "http://resources.cumulocity.com/webapps/node-tools/c8y-2.0.0-SNAPSHOT.tar"
   }
 }
